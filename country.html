@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CountryScope 🔎</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <script src="country.js" defer></script>
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <div class="logo">
+                <h1>CountryScope 🔎</h1>
+            </div>
+            <div class="theme-toggle">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+        </nav>
+
+        <main class="country-details-container">
+            <div class="country-wrapper">
+
+                <div class="flag-section">
+                    <img id="flag" alt="Country Flag">
+                </div>
+
+                <div class="info-section">
+                    <h2 id="name"></h2>
+
+                    <div class="info-group">
+                        <p><strong>Official Name:</strong> <span
+                                id="official-name"></span></p>
+                        <p><strong>Capital:</strong> <span
+                                id="capital"></span></p>
+                        <p><strong>Region:</strong> <span
+                                id="region"></span></p>
+                        <p><strong>Subregion:</strong> <span
+                                id="subregion"></span></p>
+                        <p><strong>Population:</strong> <span
+                                id="population"></span></p>
+                        <p><strong>Area:</strong> <span id="area"></span>
+                            km²</p>
+                        <p><strong>Languages:</strong> <span
+                                id="languages"></span></p>
+                        <p><strong>Currencies:</strong> <span
+                                id="currencies"></span></p>
+                        <p><strong>Timezones:</strong> <span
+                                id="timezones"></span></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <button onclick="history.back()" class="back-btn">⬅️ Go
+                Back</button>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 CountryScope. All rights reserved.</p>
+        </footer>
+
+    </body>
+</html>
